@@ -1,0 +1,587 @@
+@charset "UTF-8";
+/*
+Theme Name: Pangja Child
+Theme URI: https://wordpress.org/themes/twentynineteen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Requires at least: WordPress 4.9.6
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Template: pangja
+Text Domain: twentynineteen
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Crete+Round&display=swap');
+
+#mega-menu-wrap-primary-menu #mega-menu-primary-menu{
+	 background-color: #3d4e5b;
+
+}
+
+header.haru-main-header.header-sticky.sticky_light .haru-header-nav-wrap {
+  background-color: #3d4e5b;
+}
+
+header.haru-main-header .header-logo a img {
+    max-height: 130px;
+    background: white;
+    margin-left: 30px;
+    }
+
+.header-1 .haru-header-nav-wrap .header-nav-above {
+    height: 130px;
+}
+
+header.haru-main-header .haru-header-nav-wrap.nav-sticky .header-logo a img {
+    max-height: 60px;
+}
+
+
+#wpcf7-f90-p6-o1 > form > p:nth-child(4) > label > span > textarea{
+	height:140px;
+}
+
+
+#testimonial_rotator_104 .testimonial_rotator_description div.testimonial_rotator_quote{
+	font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    word-spacing: 5px;
+    text-align: left;
+    line-height: 1.5;
+    background: #0037ff08;
+}
+
+#haru-footer-main{
+	background: #29455d;
+}
+
+/*image-content and modal css*/
+
+.img-course-content {
+	position: relative;
+}
+
+.img-course-content img{
+	width:100%;
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+/*.modal-body-wrapper{
+	position:relative;
+	left:33%;
+}*/
+
+.modal-body-wrapper img{
+	/*margin-left:10%;*/
+	width:100%;
+}
+
+.course-content-wrapper{
+	display:none;
+}
+
+.modal-image-wrapper{
+	border: 2px solid blue;
+    padding: 0px;
+    border-radius: 10px;
+    background: #ffff;
+}
+
+.modal-course-header{
+	text-align: center;
+    border: 1px solid #3d4e5b;
+    background: #3d4e5b;
+    margin-bottom: 0px;
+    color: white;
+}
+
+td i{
+	color: blue;
+}
+
+.img-tag{
+
+position: absolute;
+    bottom:50%;
+    background: #92d8b1d4;
+    /* border-radius: 5px; */
+    width: 80%;
+    text-align: center;
+    margin-top: 11px;
+    font-family: popins;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 200px;
+    height: 42px;
+    vertical-align: middle;
+    display: table;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    right:0px;
+}
+
+.join-now-button{
+	text-align: center;
+    margin: 20px;
+}
+
+.image-footer-text{
+	text-align: center;
+    border: 1px solid #3d4e5b;
+    background: #3d4e5b;
+    margin-bottom: 0px;
+    color: white;
+    min-height: 110px;
+}
+
+.title-text{
+	text-align: center;
+    border: 1px solid #3d4e5b;
+    background: #3d4e5b;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.target-text,.duration-text{
+	color: white
+}
+
+.modal-header{
+	text-align: center;
+    background: #ff00006b;
+    border-bottom: 2px solid blue;
+    font-color: white;
+}
+
+.select-text{
+	font-size: 2rem;
+}
+
+#radioBtn .notActive{
+    color: #3276b1;
+    background-color: #fff;
+}
+
+
+#main-page-carousel .vc_slide{
+	margin:0 auto;
+}
+
+.flexslider .slides img {
+    width: 30% !important;
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.footer-contact-content ul li span.fab {
+    display: none;
+}
+
+ul.footer-about-us,ul.footer-about-course{
+list-style: none;
+list-style-type: none;
+padding: 5px 0 0;
+margin: 0;
+}
+
+ul.footer-about-us li,ul.footer-about-course li {
+padding: 10px 0;
+color: #9f9f9f;
+}
+
+ul.footer-about-us li a, ul.footer-about-course li a {
+/*padding: 10px 0;*/
+color: #9f9f9f;
+}
+
+/*contact form modal inside modal new student*/
+#contact-form-modal-new{
+	padding: 5%;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0px
+}
+
+#contact-form-modal-new .modal-dialog{
+	height: auto;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 100%;
+}
+}
+
+
+@media(max-width:500px){
+	.flexslider .slides img {
+    width: 70% !important;
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+}
+
+#rev_slider_1_1_wrapper{
+	height:230px !important;
+}
+
+.hall-of-success-text{
+	margin-bottom:10px;
+
+}
+
+}
+
+
+.main-page-wrapper{
+    position:relative;
+}
+
+.fancy-box-wrapper{
+    /*width: 400px;*/
+    /*height: 50px;*/
+    background: #8080806e;
+    border: 1px solid yellow;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    color:white;
+    font-family:"Lemonada";
+    line-height: 2.5;
+    }
+
+    .hearts{
+      color:yellow;
+    }
+
+    .left-small-box{
+    border-right: 2px solid blue;
+    width: 30%;
+    height: 100%;
+    border: 2px solid red;
+    /* border-right: 2px solid blue; */
+    /*border-radius: 20px;*/
+    float:left;
+    background:navy;
+    }
+    .right-big-box{
+      border-right: 2px solid blue;
+    width: 70%;
+    height: 100%;
+    border: 2px solid red;
+    /* border-right: 2px solid blue; */
+    /* border-radius: 20px; */
+    float: left;
+    background: orangered;
+
+    }
+
+fancy-box-wrapper first{
+    /*width: 400px;*/
+    /*height: 50px;*/
+    background: #8080806e;
+    border: 1px solid yellow;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    color:white;
+    font-family:"Lemonada";
+    line-height: 2.5;
+    }
+
+
+.image-header-valentine-offer{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background: cadetblue;
+    color: white;
+    font-family: lemonada!important;
+    font-size: 3.5em;
+}
+ .image-header-second-text{
+    position: absolute;
+    top:30%;
+    left: 37%;
+    font-family:Lemonada !important;
+    background: red;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+
+ }
+
+
+
+    /*table*/
+    table.redTable {
+  border: 2px solid #A40808;
+  background-color: #EEE7DB;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.redTable td, table.redTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.redTable tbody td {
+  font-size: 13px;
+}
+table.redTable tr:nth-child(even) {
+  background: #F5C8BF;
+}
+table.redTable thead {
+  background: #A40808;
+}
+table.redTable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #A40808;
+}
+table.redTable thead th:first-child {
+  border-left: none;
+}
+
+table.redTable tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #A40808;
+}
+table.redTable tfoot td {
+  font-size: 13px;
+}
+table.redTable tfoot .links {
+  text-align: right;
+}
+table.redTable tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #A40808;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+
+
+
+.button-wrapper{
+    text-align:center;
+}
+
+.table-text-wrapper{
+    text-align:center;
+}
+
+.promotional-text{
+    list-style: none;
+    font-family: lemonada;
+    font-size: 0.9em;
+    font-weight: 800;
+    color: white;
+}
+
+.first-part{
+    background: blue;
+    border: 1px solid yellow;
+    padding: 2px;
+}
+
+.second-part{
+    background: red;
+    border-left: none;
+    border: 1px solid yellow;
+    padding: 2px;
+
+}
+
+.promotional-text-items{
+    width: 100%;
+    font-size: 3.3em;
+    text-align: center;
+}
+
+.promotional-text{
+    position: absolute;
+    top: 40%;
+    left: 18%;
+}
+
+div h3{
+    color:pink;
+}
+
+button a {
+    color:white;
+}
+
+
+
+@media screen and (max-width:1199px){
+    .image-header-second-text {
+        top:37%;
+    }
+
+    .promotional-text{
+        top:45%;
+        left:10%;
+    }
+
+    .image-header-valentine-offer{
+        width:94%;
+        left:4%;
+    }
+
+}
+
+@media screen and (max-width:991px){
+    .image-header-second-text {
+        top:38%;
+    }
+
+    .promotional-text{
+        top:48%;
+    }
+
+
+}
+
+@media screen and (max-width:768px){
+    .image-header-second-text {
+        top:42%;
+    }
+
+    .promotional-text{
+        top:56%;
+        font-size:0.7em;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .image-header-valentine-offer {
+    width: 90vw;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    background: cadetblue;
+    color: white;
+    font-family: lemonada;
+    font-size: 16px;
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.image-header-second-text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-family: Lemonada !important;
+    background: red;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size:1em;
+
+}
+
+.promotional-text-items{
+    font-size: 1.3em;
+
+}
+
+}
+
+@media screen and (max-width:400px){
+    .promotional-text {
+    top: 55%;
+    left:1%;
+
+}
+}
+
+
+/*address styles*/
+.view_map{
+    background: #00788b;
+    /* border-left: 5px solid blue; */
+    padding: 0px;
+    margin-left: 4px;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: -1px;
+    position: relative;
+}
+
+.yellow-line{
+    margin: 0px;
+    border: 1px solid yellow;
+}
+.red-line{
+    margin: 0px;
+    border: 2px solid red;
+}
+
+.address{
+    background: #3d4e5b;
+    color: white;
+    height: 70px;
+    text-align: left;
+    padding-left:15px;
+}
+.address1{
+    padding: 5px;
+}
+
+.opening_soon_text{
+    background: yellow;
+    height: 27px;
+    display: inline-block;
+    /* border-radius: 50%; */
+    /* width: 109px; */
+    padding: 0px;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding-left: 10px;
+    color: green;
+    font-weight: bolder;
+    padding-right: 10px;
+}
+
+.view_map a {
+    color:white;
+}
+
+
+
+
+
+
+
+
+
